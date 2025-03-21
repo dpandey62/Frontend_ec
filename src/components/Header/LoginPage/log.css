@@ -1,0 +1,250 @@
+/* Base Styles */
+.relative {
+    position:relative;
+    
+  
+   
+}
+
+.absolute {
+    position: absolute;
+    width: 350px;
+   
+    z-index: 100;
+    transition:  all 0.3s ease-in-out;
+    
+   
+    
+
+
+}
+
+.na{
+    border-bottom: 1px solid black;
+}
+.fac{
+    margin-right: 8px;
+}
+
+.bg-blue-600 {
+    background-color: #007bff;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue-600 {
+    color: #007bff;
+}
+
+.border {
+    border: 1px solid #ede9e9;
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-md {
+    border-radius: 8px;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.si{
+    margin-left: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.hover\:bg-gray-100:hover {
+    background-color: #f3f3f3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .relative {
+        width: 100%;
+        text-align: center;
+    }
+    .absolute {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .px-4 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .py-2 {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .px-4 {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    .py-2 {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+    .rounded-md {
+        border-radius: 5px;
+    }
+}
+
+/* login css nesdsw*/
+
+/* log.css */
+
+/* Style for the login button 
+.login-btn {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Dropdown Menu Container 
+  .na {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 8px;
+    width: 220px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 10;
+  }
+  
+  .na ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .na .cust {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .na .si {
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .na .si:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the list items inside the dropdown *
+  .na ul li {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .na ul li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .fac {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .na ul li:hover .fac {
+    color: #0073e6;
+  }
+  
+  .na .text-center {
+    padding: 12px 16px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design *
+  @media (max-width: 768px) {
+    .login-btn {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .na {
+      width: 200px; /* Slightly smaller width for mobile devices *
+    }
+  
+    .na ul li {
+      font-size: 12px;
+      padding: 10px 12px;
+    }
+  
+    .fac {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-btn {
+      font-size: 10px;
+      padding: 6px 10px;
+    }
+  
+    .na {
+      width: 180px;
+    }
+  
+    .na ul li {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    .fac {
+      font-size: 14px;
+    }
+  }
+  */

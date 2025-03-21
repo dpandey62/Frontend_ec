@@ -1,0 +1,111 @@
+/*.countrydrop {
+    background-color: #6fb4ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-transform: none;
+  }
+  
+  .countrydrop .info {
+    text-align: left;
+  }
+  
+  .countrydrop .label {
+    font-size: 13px;
+    color: #cfcfcf;
+  }
+  
+  .countrydrop .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .location-dialog {
+    padding: 20px;
+  }
+  
+  .location-dialog h4 {
+    margin-bottom: 10px;
+  }
+  
+  .location-dialog p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  .location-dialog .countryList{
+    margin-bottom: 0PX;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+  }
+  .location-dialog .countryList li{
+   width: 100%;
+   text-transform: capitalize;
+   color: #000;
+   justify-content: flex-start;
+   margin-left: 10px;
+
+  }*/
+  .countrydrop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background: #ebe2e2;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .countrydrop .info {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .location-dialog .MuiDialogContent-root {
+    padding-top: 16px;
+  }
+  
+  .location-dialog .countryList {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+  }
+  
+  .location-dialog .countryList::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .location-dialog .countryList::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+  }
+  
+  .location-dialog .countryList::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+  /* close button */
+
+   .location-dialog .close_{
+    position: absolute;
+    top :20px;
+    right: 20px;
+    color: black;
+    min-width: 40px;
+    border-radius: 50%;
+    
+
+   }
+   .location-dialog .close_ svg{
+    width: 20px;
+    height: 20px;
+ font-size: 22px;
+   }

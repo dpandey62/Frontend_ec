@@ -1,0 +1,158 @@
+/* Footer Styles */
+.footer {
+    
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.fcontainer {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.inforow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    flex: 1;
+   
+    margin: 10px 0;
+}
+
+.col span {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.col span svg{
+    color: orangered;
+    font-weight: 500;
+}
+
+.ml-2 {
+    margin-left: 10px;
+}
+
+/* Footer Links */
+.linkswrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.col2 {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.col2 h6 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.col2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.col2 ul li {
+    margin-bottom: 8px;
+}
+
+.col2 ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.col2 ul li a:hover {
+    color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .inforow {
+        flex-direction: column;
+        text-align: center;
+    }
+    .col {
+        justify-content: center;
+    }
+    .linkswrap {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Copyright Section */
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.copyright ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright ul li {
+    margin-left: 10px;
+}
+
+.copyright ul li a {
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.copyright ul li a:hover {
+    color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .inforow {
+        flex-direction: column;
+        text-align: center;
+    }
+    .col {
+        justify-content: center;
+    }
+    .linkswrap {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

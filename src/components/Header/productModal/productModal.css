@@ -1,0 +1,244 @@
+/* Product Modal */
+
+/* Rating Styling */
+.product-rating {
+  display: flex;
+  margin-right: 630px;
+  margin-bottom: 15px;
+  justify-content: flex-end; /* Align rating to the right */
+  margin-top: 10px; /* Add some space above the rating */
+}
+
+.product-modal {
+  position: relative;
+  background: #ece7e7;
+  padding: 20px;
+  max-width: 900px; /* Increased size of the product modal */
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.product-modal h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 500px;
+  margin-bottom: 10px;
+}
+
+
+
+.product-modal__image {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 10px;
+}
+
+.product-modal__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* InnerImageZoom Styling */
+.inner-image-zoom__zoomed-image {
+  z-index: 9999;
+}
+
+/* Close Button */
+.product-modal .closes {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 29px;
+  color: #333;
+  font-weight: 600;
+  
+ 
+  margin-left: 790px;
+}
+.closes :hover{
+  color: #d32f2f;
+}
+
+
+
+/* Quantity Selector */
+.product-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+  margin-right: 200px;
+
+}
+
+.quantity-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.quantity-btn :hover{
+  color: #007bff;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  background: #ff5722; /* Removed !important for better specificity */
+  color: white;
+  font-size: 12px; /* Decreased font size for a smaller button */
+  padding: 5px 10px; /* Reduced padding for a smaller button */
+  width: 150px; /* Decreased width for a smaller button */
+  text-transform: none;
+  border-radius: 5px;
+  right: 100px;
+
+}
+
+
+/* Product Details */
+.product-details {
+  margin-top: 25px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.product-details p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* Swiper / Slick Slider */
+/* Product Slider - Ensure images are displayed in a horizontal row */
+.product-modal__slider {
+  margin-top: 15px;
+  width: 100%;
+ 
+  overflow: auto; /* Allow horizontal scrolling if needed */
+}
+
+.slider-item {
+  display: flex;
+  flex-direction: row; /* Ensure items are displayed in a horizontal row */
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.slider-item img {
+  width: 100%;
+  max-width: 250px;  /* Increased max-width for larger images */
+  height: auto; /* Set height to auto for proper aspect ratio */
+
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.slider-item img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-modal {
+    max-width: 90%;
+  }
+
+  .closes {
+    top: 5px;
+    left: auto;
+    right: 5px;
+  }
+
+  .product-actions {
+    flex-direction: column;
+  }
+
+  .quantity-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .price {
+    font-size: 1.2rem;
+  }
+
+  .slider-item img {
+    max-width: 60px;
+    height: 60px;
+  }
+}
+
+/* add new categories of product*/
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-style: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 10px;
+}
+
+.new-price {
+  font-weight: bold;
+  color: #d32f2f;
+  margin-left: 10px;
+}
+
+.stock-status {
+  color: green;
+  font-weight: bold;
+  margin-right: 340px;
+}
+.product-description{
+  margin-right: 42px;
+  margin-top: 10px;
+}
+.wishlist-compare {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.wishlist-btn,
+.compare-btn {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color:grey;
+ 
+ 
+}
+.wishlist-compare .wishlist-btn {
+  
+  border-radius: 10px;
+}
+.wishlist-compare .compare-btn {
+  
+  border-radius: 10px;
+}
+
+
+.wishlist-btn svg,
+.compare-btn svg {
+  margin-right: 5px;
+}
