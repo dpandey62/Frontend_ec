@@ -67,4 +67,6 @@ This section has moved here:
 
 ### `npm run build` fails to minify
 
-This section has moved here: [
+This section has moved here: []
+
+
